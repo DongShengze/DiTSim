@@ -1,5 +1,13 @@
 # DiTSim: A Diffusion Transformers-Based single-cell ATAC-seq Data Simulator
 
+## Introduction
+DiTSim是一款基于DiTs的深度学习单细胞ATAC-seq（scATAC-seq）数据模拟工具。它通过高效拟合真实数据分布，生成具有生物学意义的高保真模拟数据。DiTSim结合非线性自编码器的降维能力与Transformer架构的全局特征建模优势，在保持细胞类型间异质性的同时，精准捕捉同一细胞类型内的多样性。
+此外，我们还提供了一系列实用的可视化工具和指标计算方法，用于评估模拟数据的质量，从而让用户能够便捷地复现实验结果。
+
+DiTSim is a deep learning-based simulator for single-cell ATAC-seq (scATAC-seq) data, powered by Diffusion Transformers (DiTs). It synthesizes high-fidelity, biologically meaningful data by efficiently capturing the global distribution of real datasets.
+DiTSim integrates the dimensionality reduction capability of nonlinear autoencoders with the global feature modeling advantages of the Transformer architecture, thereby precisely capturing the intracellular diversity within the same cell type while maintaining the heterogeneity between different cell types.
+In addition, we have also provided a suite of practical visualization tools and metric calculation methods to assess the quality of simulated data, thereby enabling users to easily reproduce experimental results.
+
 ## Preparation
 
 ### Configurate environment
